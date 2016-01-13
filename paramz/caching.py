@@ -123,7 +123,7 @@ class Cacher(object):
         """
         #=======================================================================
         # !WARNING CACHE OFFSWITCH!
-        # return self.operation(*args, **kw)
+        return self.operation(*args, **kw)
         #=======================================================================
 
         # 1: Check whether we have forced recompute arguments:
